@@ -1,7 +1,8 @@
 # agent-web
 
-**URL → LLM-ready markdown.** A charter-clean, *polite* web reader for AI agents.
-No account, no API key — free per-call access.
+**URL → LLM-ready markdown.** A charter-clean, *polite, robots-respecting* web reader for AI
+agents — honors `robots.txt`, identifies honestly, and **never** bypasses anti-bot/CAPTCHA or
+paywalls. No account, no API key — free per-call access.
 
 🌐 Live: **https://agent-web.foomworks.workers.dev** · 🔌 MCP: **`https://agent-web.foomworks.workers.dev/mcp`**
 
