@@ -31,8 +31,8 @@ https://agent-web.foomworks.workers.dev/mcp
 
 ```bash
 BASE=https://agent-web.foomworks.workers.dev
-curl -s "$BASE/read?url=https://example.com/"          # full markdown
-curl -s "$BASE/read/preview?url=https://example.com/"  # first ~600 chars
+curl -s "$BASE/read?url=https://example.com/&ref=readme"          # full markdown
+curl -s "$BASE/read/preview?url=https://example.com/&ref=readme"  # first ~600 chars
 ```
 
 Discovery: [`/.well-known/mcp.json`](https://agent-web.foomworks.workers.dev/.well-known/mcp.json) (MCP) ·
